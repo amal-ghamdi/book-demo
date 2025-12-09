@@ -1,0 +1,24 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 9f1d4fa5-78f3-4454-8829-afe4656b711c
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/amal-ghamdi/book-demo
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+
+  toc:
+   - file: intro.md
+   - file: distribution.ipynb
+  
+  thebe:
+    binder:
+      repo: amal-ghamdi/book-demo
+
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
