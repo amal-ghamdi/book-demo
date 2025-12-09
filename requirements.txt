@@ -1,4 +1,3 @@
 numpy<=2.2.0
 jupyter-book
---pre
 cuqipy
